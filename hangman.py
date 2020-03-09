@@ -14,9 +14,7 @@ start_playing = start_playing.upper()
 
 while start_playing == 'Y':
   word = random.choice(words).strip()
-  word_length = len(word) 
-
-  print(word) 
+  word_length = len(word)
 
   print("\nIn the hidden word lies the secret for saving your friend\'s life.")
   time.sleep(0.8)
